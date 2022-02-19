@@ -12,6 +12,8 @@
 - Move complex expressions into helper functions, especially if you need to use the same logic repeatedly.
 
 - Prefer Multiple Assignment Unpacking Over Indexing
+
+
 Eg:
 Newbie:
 ```
@@ -33,6 +35,8 @@ for rank, (name, calories) in enumerate(snacks, 1): # name, calories = snack ---
 sequence.
 
 - If you have two or more related list, you can iterate them parallely with zip function
+
+
 Eg:
 Newbie:
 ```
@@ -63,6 +67,8 @@ for name, count in zip(names, counts):
 ```
 
 - Use the walrus operator (:=) to both assign and evaluate variable names in a single expression, thus reducing repetition.
+
+
 Eg:
 Newbie:
 ```
