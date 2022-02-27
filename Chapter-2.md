@@ -28,3 +28,7 @@ print(oldest, second_oldest, others)
 output>>> 20 19 [15, 9, 8, 7, 6, 4, 1, 0]
 
 - Prefer defaultdict Over setdefault to Handle Missing Items in Internal State
+
+- prefer "get" over keyerror to handle missing values in dictionaries
+
+- 
