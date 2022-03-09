@@ -2,7 +2,7 @@
 
 - Use atmost three variables for unpacking
 
--  Prefer Raising Exceptions over Returning None
+- Prefer Raising Exceptions over Returning None
 
 EG:
 
